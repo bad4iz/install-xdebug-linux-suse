@@ -17,7 +17,7 @@
 `$ sudo cp modules/xdebug.so /opt/lampp/lib/php/extensions/`
 
 ## Конфигурируем PHP
-прописываем в `/opt/lampp/etc/php.ini`
+прописываем в `/opt/lampp/etc/php.ini`   
 Включаем библиотеку (я добавил это на 545 строке) можно в конце
 `zend_extension="/opt/lampp/lib/php/extensions/xdebug.so"`
 
