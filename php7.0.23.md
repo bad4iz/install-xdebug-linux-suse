@@ -19,7 +19,14 @@
 ## Конфигурируем PHP
 прописываем в `/opt/lampp/etc/php.ini`   
 Включаем библиотеку (я добавил это на 545 строке) можно в конце
-`zend_extension="/opt/lampp/lib/php/extensions/xdebug.so"`
+
+```
+; XDebug configuration  
+zend_extension=/usr/lib64/php5/extensions/xdebug.so   
+[XDebug]  
+xdebug.remote_enable = 1  
+xdebug.remote_autostart = 1
+```
 
 ## Запуск/перезапуск и проверка
 
